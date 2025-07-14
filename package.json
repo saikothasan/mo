@@ -13,5 +13,10 @@
     "wrangler": "^3.15.0",
     "typescript": "^5.3.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "workers-ai-provider": "latest",
+    "@neondatabase/serverless": "latest",
+    "ai": "latest",
+    "zod": "latest"
+  }
 }

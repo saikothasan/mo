@@ -549,7 +549,7 @@ async function answerCallbackQuery(queryId: string, env: Env): Promise<void> {
 }
 
 async function setWebhook(env: Env): Promise<Response> {
-  const webhookUrl = `https://your-worker-domain.workers.dev/webhook`;
+  const webhookUrl = `https://iq.jvmjdk17.workers.dev/webhook`;
   const url = `https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/setWebhook`;
   
   const response = await fetch(url, {

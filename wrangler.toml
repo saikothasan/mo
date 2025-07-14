@@ -1,0 +1,14 @@
+name = "iq"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+# Public variables (can be set here)
+
+[[kv_namespaces]]
+binding = "KV"
+id = "your_kv_namespace_id"
+preview_id = "your_kv_namespace_preview_id"
+
+[ai]
+binding = "AI"

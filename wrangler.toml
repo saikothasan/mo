@@ -7,7 +7,7 @@ TELEGRAM_BOT_TOKEN = "7963022767:AAHjFxSvn16CK2BBWX1aEE_3kBX7u1ZM57c"
 TELEGRAM_WEBHOOK_SECRET = "fce3c2c52c3d4e9"
 
 [[kv_namespaces]]
-binding = "IQ_BOT_KV"
+binding = "IQ_KV"
 id = "fce3c2c52c3d4e9ba9109c5195f0547c"
 preview_id = "fce3c2c52c3d4e9ba9109c5195f0547c"
 
